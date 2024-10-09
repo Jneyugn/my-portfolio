@@ -1,0 +1,84 @@
+/* General Styles */
+
+h1{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 70px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  line-height: 1;
+  }
+
+
+body {
+    background-color: #ccc7c2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #88827f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flex-item {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: rgb(36, 35, 34);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
