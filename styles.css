@@ -162,6 +162,44 @@ video {
     height: auto;
 }
 
+/* Form Error Styles */
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Location Display */
+#location-display {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #202020;
+    display: inline-block;
+}
+
+#location {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#location-display button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+}
+
+#location-display button:hover {
+    background-color: #9c9a9a; 
+}
+
+#location-display button:active {
+    background-color: #000000; 
+}
 
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
