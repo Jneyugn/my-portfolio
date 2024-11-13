@@ -1,11 +1,21 @@
 /* General Styles */
 
-h1{
+h1, h5{
     font-family: sans-serif;
     font-style: italic;
     font-size: 70px;
   text-align: center;
   color: rgb(255, 255, 255);
+  font-weight: 600;
+  line-height: 1;
+  }
+
+ h4{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 70px;
+  text-align: center;
+  color: rgb(58, 54, 54);
   font-weight: 600;
   line-height: 1;
   }
@@ -90,6 +100,47 @@ p {
     color: #ffffff;
 }
 
+form {
+    max-width: 400px; 
+    margin: 20px auto;
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 15px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+}
+
+form button {
+    background-color: #434443;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; 
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #262726;
+}
+
 footer {
     background-color: #333;
     color: white;
@@ -98,6 +149,12 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.error-message {
+    color: red; 
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 video {
