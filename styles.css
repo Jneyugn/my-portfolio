@@ -296,3 +296,29 @@ html {
         margin: 10px;
     }
 }
+
+/* Filter Button Styling */
+.filter-btn {
+    background-color: #444;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s, transform 0.2s; /* hover effects */
+    margin: 10px 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.filter-btn:hover {
+    background-color: #0a0707;
+    transform: scale(1.05);
+}
+
+.filter-btn:active {
+    background-color: #222;
+    transform: scale(0.95);
+}
