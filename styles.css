@@ -201,6 +201,23 @@ video {
     background-color: #000000; 
 }
 
+/*toggle between light and dark mode"*/
+
+const toggleThemeButton = document.getElementById('toggleTheme');
+toggleThemeButton.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dark-mode {
+    background-color: #131212;
+    color: #fff;
+}
+
+
 /* Media Queries for Mobile Devices */
 @media only screen and (max-width: 600px) {
     header, footer {

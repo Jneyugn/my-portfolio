@@ -108,3 +108,12 @@ function showError(error) {
             break;
     }
 }
+
+//toggle betweenb light and dark
+
+/*toggle between light and dark mode"*/
+
+const toggleThemeButton = document.getElementById('toggleTheme');
+toggleThemeButton.addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});
